@@ -1,0 +1,29 @@
+name: Telenor Auto Poster
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Pakistan time 5:00 AM
+    # UTC time 00:00
+    - cron: "0 0 * * *"
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Telenor Auto Poster
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: node poster.js
