@@ -18,11 +18,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 20
+
+      - name: Test WordPress REST API
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+        run: |
+          echo "Testing WordPress REST API..."
+          curl -L -A "Mozilla/5.0" \
+            -H "Accept: application/json" \
+            "$WP_URL/wp-json/wp/v2/pages/26"
 
       - name: Run Telenor Auto Poster
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: node poster.js 
+        run: node poster.js
