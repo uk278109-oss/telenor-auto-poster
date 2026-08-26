@@ -2,9 +2,9 @@ const SOURCE_URL = "https://todaymytelenoranswer.pk/";
 const TODAY_PAGE_ID = 26;
 const SITE_NAME = "Telenor Quiz PK";
 
-/* =========================
+/* =========================================
    PAKISTAN DATE
-========================= */
+========================================= */
 
 function getPakistanDate() {
   return new Intl.DateTimeFormat("en-US", {
@@ -15,9 +15,9 @@ function getPakistanDate() {
   }).format(new Date());
 }
 
-/* =========================
+/* =========================================
    HTML SAFETY
-========================= */
+========================================= */
 
 function escapeHtml(text = "") {
   return String(text)
@@ -28,9 +28,9 @@ function escapeHtml(text = "") {
     .replace(/'/g, "&#039;");
 }
 
-/* =========================
+/* =========================================
    HTML TO TEXT
-========================= */
+========================================= */
 
 function htmlToText(html) {
   return html
@@ -54,9 +54,9 @@ function htmlToText(html) {
     .filter(Boolean);
 }
 
-/* =========================
+/* =========================================
    FETCH QUIZ
-========================= */
+========================================= */
 
 async function fetchQuiz() {
   console.log("Fetching Telenor quiz source...");
@@ -64,7 +64,7 @@ async function fetchQuiz() {
   const response = await fetch(SOURCE_URL, {
     headers: {
       "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/140 Safari/537.36",
       "Accept":
         "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
     }
@@ -84,59 +84,76 @@ async function fetchQuiz() {
   const quiz = [];
 
   for (let i = 0; i < lines.length; i++) {
-    const match = lines[i].match(
-      /^Question\s*(?:No)?\s*[:\-]?\s*0?([1-5])$/i
+    const questionMatch = lines[i].match(
+      /^Question\s*(?:No\.?)?\s*[:\-]?\s*0?([1-5])$/i
     );
 
-    if (!match) continue;
+    if (!questionMatch) continue;
 
-    const number = Number(match[1]);
+    const number = Number(questionMatch[1]);
+
     let question = "";
     let answer = "";
 
-    for (let j = i + 1; j < Math.min(i + 15, lines.length); j++) {
+    /* Find Question */
+
+    for (
+      let j = i + 1;
+      j < Math.min(i + 15, lines.length);
+      j++
+    ) {
       const line = lines[j];
 
-      if (/^Answer\s*:?\s*$/i.test(line)) break;
-
       if (
-        line.length > 5 &&
+        line.length > 8 &&
         !/^Question/i.test(line) &&
-        !/^Answer/i.test(line)
+        !/^Answer/i.test(line) &&
+        !/^Correct/i.test(line)
       ) {
         question = line;
         break;
       }
     }
 
-    for (let j = i + 1; j < Math.min(i + 25, lines.length); j++) {
+    /* Find Answer */
+
+    for (
+      let j = i + 1;
+      j < Math.min(i + 30, lines.length);
+      j++
+    ) {
       const line = lines[j];
 
       if (
-        j > i + 1 &&
-        /^Question\s*(?:No)?\s*[:\-]?\s*0?[1-5]$/i.test(line)
+        j > i + 2 &&
+        /^Question\s*(?:No\.?)?\s*[:\-]?\s*0?[1-5]$/i.test(line)
       ) {
         break;
       }
 
-      const inline = line.match(
+      const inlineAnswer = line.match(
         /^(?:Correct\s*)?Answer\s*[:\-]\s*(.+)$/i
       );
 
-      if (inline && inline[1]) {
-        answer = inline[1].trim();
+      if (inlineAnswer && inlineAnswer[1]) {
+        answer = inlineAnswer[1].trim();
         break;
       }
 
-      if (/^Answer\s*:?\s*$/i.test(line)) {
-        for (let k = j + 1; k < Math.min(j + 6, lines.length); k++) {
+      if (/^(?:Correct\s*)?Answer\s*:?\s*$/i.test(line)) {
+        for (
+          let k = j + 1;
+          k < Math.min(j + 8, lines.length);
+          k++
+        ) {
           const candidate = lines[k];
 
           if (
             candidate &&
             candidate.length > 1 &&
             !/^Question/i.test(candidate) &&
-            !/^Answer/i.test(candidate)
+            !/^Answer/i.test(candidate) &&
+            !/^Correct/i.test(candidate)
           ) {
             answer = candidate;
             break;
@@ -148,12 +165,18 @@ async function fetchQuiz() {
     }
 
     if (question && answer) {
-      quiz.push({ number, question, answer });
+      quiz.push({
+        number,
+        question,
+        answer
+      });
 
       console.log(`Question ${number}: ${question}`);
       console.log(`Answer ${number}: ${answer}`);
     }
   }
+
+  /* Remove duplicates */
 
   const unique = [];
 
@@ -176,18 +199,26 @@ async function fetchQuiz() {
   return unique.slice(0, 5);
 }
 
-/* =========================
+/* =========================================
    WORDPRESS API
-========================= */
+========================================= */
 
 async function wpRequest(path, options = {}) {
   const WP_URL = process.env.WP_URL;
   const WP_USERNAME = process.env.WP_USERNAME;
   const WP_APP_PASSWORD = process.env.WP_APP_PASSWORD;
 
-  if (!WP_URL) throw new Error("Missing WP_URL secret");
-  if (!WP_USERNAME) throw new Error("Missing WP_USERNAME secret");
-  if (!WP_APP_PASSWORD) throw new Error("Missing WP_APP_PASSWORD secret");
+  if (!WP_URL) {
+    throw new Error("Missing WP_URL secret");
+  }
+
+  if (!WP_USERNAME) {
+    throw new Error("Missing WP_USERNAME secret");
+  }
+
+  if (!WP_APP_PASSWORD) {
+    throw new Error("Missing WP_APP_PASSWORD secret");
+  }
 
   const baseUrl = WP_URL.replace(/\/$/, "");
   const url = `${baseUrl}/wp-json/wp/v2${path}`;
@@ -200,19 +231,15 @@ async function wpRequest(path, options = {}) {
 
   const response = await fetch(url, {
     method: options.method || "GET",
+
     headers: {
       "Authorization": `Basic ${auth}`,
-      "Accept": "application/json, text/plain, */*",
+      "Accept": "application/json",
       "Content-Type": "application/json; charset=UTF-8",
-
-      /* Browser-like headers */
-      "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
-      "Origin": baseUrl,
-      "Referer": `${baseUrl}/wp-admin/`,
-
+      "User-Agent": "Mozilla/5.0",
       ...(options.headers || {})
     },
+
     body: options.body
   });
 
@@ -221,7 +248,7 @@ async function wpRequest(path, options = {}) {
   console.log("WordPress status:", response.status);
   console.log(
     "Response preview:",
-    raw.substring(0, 100).replace(/\n/g, " ")
+    raw.substring(0, 150).replace(/\n/g, " ")
   );
 
   let data;
@@ -245,89 +272,391 @@ async function wpRequest(path, options = {}) {
   return data;
 }
 
-/* =========================
-   PROFESSIONAL CONTENT
-========================= */
+/* =========================================
+   ADVERTISEMENTS
+========================================= */
 
-function createContent(quiz, date) {
-  const cards = quiz.map(item => `
-<div style="max-width:850px;margin:30px auto;border-radius:20px;overflow:hidden;background:#fff;border:1px solid #dbe5ee;box-shadow:0 8px 25px rgba(0,0,0,.08);">
+function createAds() {
+  return `
 
-<div style="background:linear-gradient(135deg,#075fa8,#1396df);color:#fff;padding:18px 25px;font-family:Arial,sans-serif;">
-<div style="font-size:14px;letter-spacing:1px;opacity:.85;">TELENOR DAILY QUIZ</div>
-<div style="font-size:26px;font-weight:bold;margin-top:5px;">Question ${item.number}</div>
+<!-- 300x250 AD -->
+<div style="
+max-width:300px;
+margin:30px auto;
+text-align:center;
+min-height:250px;
+overflow:hidden;
+">
+<script>
+atOptions = {
+  'key' : '24a6a563653b7d20d261f06f90b7de67',
+  'format' : 'iframe',
+  'height' : 250,
+  'width' : 300,
+  'params' : {}
+};
+</script>
+
+<script src="https://www.highrevenueformat.com/24a6a563653b7d20d261f06f90b7de67/invoke.js"></script>
 </div>
 
-<div style="padding:30px 25px;font-family:Arial,sans-serif;">
 
-<div style="font-size:22px;font-weight:700;color:#172033;line-height:1.5;">
+<!-- 320x50 MOBILE AD -->
+<div style="
+max-width:320px;
+margin:25px auto;
+text-align:center;
+min-height:50px;
+overflow:hidden;
+">
+<script>
+atOptions = {
+  'key' : '6e667a004a6bfb6f44a62710cb6288f7',
+  'format' : 'iframe',
+  'height' : 50,
+  'width' : 320,
+  'params' : {}
+};
+</script>
+
+<script src="https://www.highrevenueformat.com/6e667a004a6bfb6f44a62710cb6288f7/invoke.js"></script>
+</div>
+
+
+<!-- NATIVE AD -->
+<div style="
+max-width:100%;
+margin:30px auto;
+text-align:center;
+overflow:hidden;
+">
+
+<script async="async"
+data-cfasync="false"
+src="https://pl31041941.profitableratecpmnetwork.com/a8aed10f9bb9753673a72158b6a8ea32/invoke.js">
+</script>
+
+<div id="container-a8aed10f9bb9753673a72158b6a8ea32"></div>
+
+</div>
+
+`;
+}
+
+/* =========================================
+   QUIZ CARD
+========================================= */
+
+function createQuizCard(item) {
+  return `
+<div style="
+max-width:850px;
+margin:28px auto;
+background:#111827;
+border-radius:18px;
+padding:3px;
+box-shadow:0 10px 30px rgba(0,0,0,.18);
+">
+
+<div style="
+background:#ffffff;
+border-radius:16px;
+overflow:hidden;
+">
+
+<!-- HEADER -->
+
+<div style="
+background:linear-gradient(135deg,#005a9c,#008bd2);
+padding:20px 24px;
+color:#ffffff;
+font-family:Arial,sans-serif;
+">
+
+<div style="
+font-size:11px;
+letter-spacing:2px;
+opacity:.85;
+font-weight:bold;
+">
+TELENOR QUIZ PK
+</div>
+
+<div style="
+font-size:24px;
+font-weight:bold;
+margin-top:6px;
+">
+Question ${item.number}
+</div>
+
+</div>
+
+
+<!-- QUESTION -->
+
+<div style="
+padding:28px 24px 20px;
+font-family:Arial,sans-serif;
+">
+
+<div style="
+font-size:20px;
+line-height:1.6;
+font-weight:700;
+color:#1f2937;
+">
 ${escapeHtml(item.question)}
 </div>
 
-<div style="margin-top:25px;padding:22px;background:#eaf8ef;border:1px solid #bde5c9;border-radius:14px;">
 
-<div style="font-size:13px;font-weight:bold;color:#087443;letter-spacing:1px;">
-✓ VERIFIED CORRECT ANSWER
+<!-- ANSWER LABEL -->
+
+<div style="
+margin-top:25px;
+font-size:12px;
+font-weight:bold;
+letter-spacing:1px;
+color:#64748b;
+text-align:center;
+">
+✓ CORRECT ANSWER
 </div>
 
-<div style="font-size:25px;font-weight:bold;color:#075c35;margin-top:8px;">
+
+<!-- CORRECT ANSWER -->
+
+<div style="
+margin-top:10px;
+padding:17px;
+border-radius:12px;
+background:linear-gradient(135deg,#0074c2,#00a0e3);
+color:#ffffff;
+text-align:center;
+font-size:21px;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,116,194,.25);
+">
 ${escapeHtml(item.answer)}
 </div>
 
+
+<!-- URDU -->
+
+<div style="
+margin-top:20px;
+padding:15px;
+background:#f1f5f9;
+border-radius:10px;
+text-align:right;
+direction:rtl;
+font-family:Arial,sans-serif;
+font-size:16px;
+color:#334155;
+">
+درست جواب: <strong>${escapeHtml(item.answer)}</strong>
+</div>
+
+</div>
+
 </div>
 </div>
-</div>
-`).join("");
+`;
+}
+
+/* =========================================
+   PROFESSIONAL CONTENT
+========================================= */
+
+function createContent(quiz, date) {
+  const cards = quiz
+    .map(item => createQuizCard(item))
+    .join("");
 
   return `
-<div style="max-width:900px;margin:auto;font-family:Arial,sans-serif;">
 
-<div style="text-align:center;padding:35px 20px;border-radius:20px;background:linear-gradient(135deg,#063e70,#0e86ce);color:#fff;">
-<div style="font-size:15px;letter-spacing:2px;opacity:.85;">
-${SITE_NAME.toUpperCase()}
+<div style="
+max-width:950px;
+margin:auto;
+font-family:Arial,sans-serif;
+">
+
+<!-- TOP HEADER -->
+
+<div style="
+background:linear-gradient(135deg,#050505,#172033);
+border-radius:20px;
+padding:35px 20px;
+text-align:center;
+color:#ffffff;
+margin-bottom:25px;
+">
+
+<div style="
+font-size:13px;
+letter-spacing:3px;
+color:#72c8ff;
+font-weight:bold;
+">
+TELENOR QUIZ PK
 </div>
 
-<h1 style="margin:12px 0;font-size:32px;color:#fff;">
+<h1 style="
+margin:15px 0 10px;
+font-size:32px;
+color:#ffffff;
+">
 🎯 Telenor Quiz Answers Today
 </h1>
 
-<p style="margin:0;font-size:17px;">
+<div style="
+font-size:16px;
+color:#dbeafe;
+">
 ${escapeHtml(date)} • Updated & Verified
-</p>
 </div>
 
-<p style="text-align:center;margin:25px 10px;color:#52616b;font-size:17px;">
-Today's 5 Telenor Quiz questions and verified correct answers.
-</p>
+</div>
+
+
+<!-- INTRO -->
+
+<div style="
+max-width:850px;
+margin:20px auto 30px;
+padding:20px;
+background:#f8fafc;
+border-radius:14px;
+text-align:center;
+color:#475569;
+font-size:16px;
+line-height:1.7;
+">
+
+<strong>Today's 5 Telenor Quiz Questions & Correct Answers</strong>
+
+<br><br>
+
+آج کے مائی ٹیلینور کوئز کے پانچ سوالات اور ان کے درست جوابات نیچے دیے گئے ہیں۔
+
+</div>
+
+
+<!-- TOP AD -->
+
+${createAds()}
+
+
+<!-- QUIZ CARDS -->
 
 ${cards}
 
-<div style="background:#f4f7fa;border-radius:16px;padding:25px;margin:30px 0;color:#34424c;">
-<h2>How to Play Today's Telenor Quiz</h2>
 
-<ol>
+<!-- BOTTOM AD -->
+
+${createAds()}
+
+
+<!-- HOW TO PLAY -->
+
+<div style="
+max-width:850px;
+margin:35px auto;
+padding:28px;
+background:#111827;
+border-radius:18px;
+color:#ffffff;
+">
+
+<h2 style="
+margin-top:0;
+color:#ffffff;
+">
+How to Play Today's Telenor Quiz
+</h2>
+
+<ol style="
+line-height:2;
+color:#dbeafe;
+">
+
 <li>Open the My Telenor App.</li>
 <li>Open the Daily Quiz section.</li>
 <li>Answer all 5 questions.</li>
 <li>Use the verified answers above.</li>
+
 </ol>
 
-<p><strong>Last Updated:</strong> ${escapeHtml(date)}</p>
+<hr style="
+border:0;
+border-top:1px solid #334155;
+margin:20px 0;
+">
+
+<div style="
+direction:rtl;
+text-align:right;
+line-height:2;
+color:#dbeafe;
+">
+
+<strong>ٹیلینور کوئز کیسے کھیلیں؟</strong>
+
+<br>
+
+مائی ٹیلینور ایپ کھولیں، ڈیلی کوئز سیکشن میں جائیں اور پانچوں سوالات کے درست جواب منتخب کریں۔
+
+</div>
+
+<p style="
+margin-bottom:0;
+color:#93c5fd;
+">
+
+Last Updated: ${escapeHtml(date)}
+
+</p>
+
+</div>
+
+
+<!-- FINAL AD -->
+
+${createAds()}
+
+
+<!-- DISCLAIMER -->
+
+<div style="
+max-width:850px;
+margin:25px auto;
+padding:18px;
+background:#f8fafc;
+border-left:4px solid #008bd2;
+color:#64748b;
+font-size:13px;
+line-height:1.7;
+">
+
+<strong>Disclaimer:</strong>
+This website is an independent informational website and is not officially affiliated with Telenor Pakistan.
+
 </div>
 
 </div>
 `;
 }
 
-/* =========================
+/* =========================================
    UPDATE TODAY PAGE
-========================= */
+========================================= */
 
 async function updateTodayPage(content) {
   console.log("Updating Today page...");
 
   return await wpRequest(`/pages/${TODAY_PAGE_ID}`, {
     method: "POST",
+
     body: JSON.stringify({
       content,
       status: "publish"
@@ -335,9 +664,9 @@ async function updateTodayPage(content) {
   });
 }
 
-/* =========================
+/* =========================================
    FIND EXISTING POST
-========================= */
+========================================= */
 
 async function findExistingPost(title) {
   const posts = await wpRequest(
@@ -351,9 +680,9 @@ async function findExistingPost(title) {
   );
 }
 
-/* =========================
+/* =========================================
    CREATE DAILY POST
-========================= */
+========================================= */
 
 async function createDailyPost(content, title) {
   console.log("Checking existing post...");
@@ -369,6 +698,7 @@ async function createDailyPost(content, title) {
 
   return await wpRequest("/posts", {
     method: "POST",
+
     body: JSON.stringify({
       title,
       content,
@@ -377,9 +707,9 @@ async function createDailyPost(content, title) {
   });
 }
 
-/* =========================
+/* =========================================
    MAIN
-========================= */
+========================================= */
 
 async function main() {
   console.log("======================================");
@@ -387,37 +717,68 @@ async function main() {
   console.log("======================================");
 
   const date = getPakistanDate();
-  const title = `Telenor Quiz Answers Today - ${date}`;
+
+  const title =
+    `Telenor Quiz Answers Today - ${date}`;
 
   console.log("Pakistan Date:", date);
   console.log("Post Title:", title);
 
+
   console.log("\nSTEP 1: FETCH QUIZ");
+
   const quiz = await fetchQuiz();
 
+
   console.log("\nSTEP 2: CREATE PROFESSIONAL CONTENT");
-  const content = createContent(quiz, date);
+
+  const content = createContent(
+    quiz,
+    date
+  );
+
 
   console.log("\nSTEP 3: UPDATE TODAY PAGE");
-  const page = await updateTodayPage(content);
+
+  const page =
+    await updateTodayPage(content);
 
   console.log("Today page updated:");
   console.log(page.link);
 
+
   console.log("\nSTEP 4: CREATE DAILY POST");
-  const post = await createDailyPost(content, title);
+
+  const post =
+    await createDailyPost(
+      content,
+      title
+    );
+
 
   console.log("\n======================================");
   console.log("AUTO POST SUCCESSFUL!");
   console.log("======================================");
+
   console.log("TODAY PAGE:", page.link);
   console.log("DAILY POST:", post.link);
 }
 
+
+/* =========================================
+   ERROR HANDLER
+========================================= */
+
 main().catch(error => {
+
   console.error("\n======================================");
+
   console.error("AUTO POSTER FAILED");
+
   console.error("======================================");
+
   console.error(error.message);
+
   process.exit(1);
+
 });
