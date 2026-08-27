@@ -1,0 +1,30 @@
+{
+  "date": "August 27, 2026",
+  "quiz": [
+    {
+      "number": 1,
+      "question": "Today's Question 1 will appear here.",
+      "answer": "Answer 1"
+    },
+    {
+      "number": 2,
+      "question": "Today's Question 2 will appear here.",
+      "answer": "Answer 2"
+    },
+    {
+      "number": 3,
+      "question": "Today's Question 3 will appear here.",
+      "answer": "Answer 3"
+    },
+    {
+      "number": 4,
+      "question": "Today's Question 4 will appear here.",
+      "answer": "Answer 4"
+    },
+    {
+      "number": 5,
+      "question": "Today's Question 5 will appear here.",
+      "answer": "Answer 5"
+    }
+  ]
+}
