@@ -3,28 +3,28 @@
   "quiz": [
     {
       "number": 1,
-      "question": "Today's Question 1 will appear here.",
-      "answer": "Answer 1"
+      "question": "Which mountain is Pakistan’s highest peak?",
+      "answer": "K2"
     },
     {
       "number": 2,
-      "question": "Today's Question 2 will appear here.",
-      "answer": "Answer 2"
+      "question": "What is Pakistan’s highest civilian award?",
+      "answer": "Nishan-e-Pakistan"
     },
     {
       "number": 3,
-      "question": "Today's Question 3 will appear here.",
-      "answer": "Answer 3"
+      "question": "What is Pakistan’s highest military award?",
+      "answer": "Nishan-e-Haider"
     },
     {
       "number": 4,
-      "question": "Today's Question 4 will appear here.",
-      "answer": "Answer 4"
+      "question": "Which date is Pakistan’s Independence Day?",
+      "answer": "14-AUG"
     },
     {
       "number": 5,
-      "question": "Today's Question 5 will appear here.",
-      "answer": "Answer 5"
+      "question": "When is Pakistan Day celebrated?",
+      "answer": "23-Mar"
     }
   ]
 }
