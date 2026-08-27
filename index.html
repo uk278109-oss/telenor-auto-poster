@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Telenor Quiz Answers Today | Telenor Quiz PK</title>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f3f6f8;
+  color:#172033;
+}
+
+.header{
+  background:linear-gradient(135deg,#062b4a,#008bd2);
+  color:white;
+  text-align:center;
+  padding:35px 15px;
+}
+
+.logo{
+  font-size:13px;
+  letter-spacing:3px;
+  opacity:.9;
+  font-weight:bold;
+}
+
+.header h1{
+  margin:12px 0;
+  font-size:28px;
+}
+
+.date{
+  color:#d9f1ff;
+}
+
+.container{
+  max-width:850px;
+  margin:auto;
+  padding:20px 14px 50px;
+}
+
+.intro{
+  background:white;
+  padding:20px;
+  border-radius:16px;
+  text-align:center;
+  margin-bottom:25px;
+  box-shadow:0 5px 20px rgba(0,0,0,.06);
+  line-height:1.7;
+}
+
+.quiz-card{
+  background:#111;
+  padding:3px;
+  border-radius:22px;
+  margin:25px 0;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.card-inner{
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.card-header{
+  background:linear-gradient(135deg,#0066a6,#00a4e4);
+  color:white;
+  padding:20px;
+}
+
+.card-small{
+  font-size:12px;
+  letter-spacing:2px;
+  opacity:.85;
+  font-weight:bold;
+}
+
+.card-header h2{
+  margin:7px 0 0;
+  font-size:24px;
+}
+
+.card-body{
+  padding:25px 20px;
+}
+
+.question{
+  font-size:20px;
+  font-weight:bold;
+  line-height:1.6;
+}
+
+.answer-label{
+  margin-top:25px;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:1px;
+  color:#64748b;
+  font-weight:bold;
+}
+
+.answer{
+  margin-top:10px;
+  padding:18px;
+  border-radius:14px;
+  background:linear-gradient(135deg,#0066c2,#00a4e4);
+  color:white;
+  text-align:center;
+  font-size:21px;
+  font-weight:bold;
+}
+
+.urdu{
+  margin-top:18px;
+  padding:15px;
+  background:#f1f5f9;
+  border-radius:12px;
+  text-align:right;
+  direction:rtl;
+  line-height:1.8;
+}
+
+.ad-box{
+  margin:25px auto;
+  text-align:center;
+  min-height:50px;
+}
+
+.loading{
+  text-align:center;
+  padding:40px;
+  font-size:18px;
+  color:#64748b;
+}
+
+.footer{
+  background:#111827;
+  color:#dbeafe;
+  text-align:center;
+  padding:30px 15px;
+  line-height:1.8;
+}
+
+.footer a{
+  color:#7dd3fc;
+}
+
+@media(max-width:600px){
+  .header h1{
+    font-size:24px;
+  }
+
+  .question{
+    font-size:18px;
+  }
+
+  .answer{
+    font-size:18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">TELENOR QUIZ PK</div>
+  <h1>🎯 Telenor Quiz Answers Today</h1>
+  <div class="date" id="todayDate">Loading...</div>
+</header>
+
+<main class="container">
+
+  <div class="intro">
+    <strong>Today's 5 Telenor Quiz Questions & Correct Answers</strong>
+    <br><br>
+    <span dir="rtl">
+      آج کے مائی ٹیلینور کوئز کے پانچ سوالات اور ان کے درست جوابات نیچے دیے گئے ہیں۔
+    </span>
+  </div>
+
+  <!-- AD 320x50 -->
+  <div class="ad-box">
+    <script>
+      atOptions = {
+        'key' : '6e667a004a6bfb6f44a62710cb6288f7',
+        'format' : 'iframe',
+        'height' : 50,
+        'width' : 320,
+        'params' : {}
+      };
+    </script>
+    <script src="https://www.highrevenueformat.com/6e667a004a6bfb6f44a62710cb6288f7/invoke.js"></script>
+  </div>
+
+  <div id="quizContainer">
+    <div class="loading">Loading today's quiz answers...</div>
+  </div>
+
+  <!-- AD 300x250 -->
+  <div class="ad-box">
+    <script>
+      atOptions = {
+        'key' : '24a6a563653b7d20d261f06f90b7de67',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+    </script>
+    <script src="https://www.highrevenueformat.com/24a6a563653b7d20d261f06f90b7de67/invoke.js"></script>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <strong>Telenor Quiz PK</strong>
+  <br>
+  Daily updated Telenor Quiz answers.
+  <br><br>
+  <span dir="rtl">
+    روزانہ اپڈیٹ ہونے والے مائی ٹیلینور کوئز کے درست جوابات۔
+  </span>
+</footer>
+
+<script>
+async function loadQuiz() {
+  const container = document.getElementById("quizContainer");
+
+  try {
+    const response = await fetch("quiz.json?time=" + Date.now());
+
+    if (!response.ok) {
+      throw new Error("Quiz data not found");
+    }
+
+    const data = await response.json();
+
+    document.getElementById("todayDate").textContent =
+      data.date + " • Updated Today";
+
+    container.innerHTML = "";
+
+    data.quiz.forEach((item, index) => {
+
+      const card = document.createElement("div");
+
+      card.className = "quiz-card";
+
+      card.innerHTML = `
+        <div class="card-inner">
+
+          <div class="card-header">
+            <div class="card-small">
+              TELENOR DAILY QUIZ
+            </div>
+
+            <h2>Question ${item.number}</h2>
+          </div>
+
+          <div class="card-body">
+
+            <div class="question">
+              ${escapeHtml(item.question)}
+            </div>
+
+            <div class="answer-label">
+              ✓ VERIFIED CORRECT ANSWER
+            </div>
+
+            <div class="answer">
+              ${escapeHtml(item.answer)}
+            </div>
+
+            <div class="urdu">
+              درست جواب: <strong>${escapeHtml(item.answer)}</strong>
+            </div>
+
+          </div>
+
+        </div>
+      `;
+
+      container.appendChild(card);
+
+      if (index === 1) {
+        const ad = document.createElement("div");
+        ad.className = "ad-box";
+        ad.innerHTML = `
+          <div id="container-a8aed10f9bb9753673a72158b6a8ea32"></div>
+        `;
+        container.appendChild(ad);
+      }
+
+    });
+
+  } catch (error) {
+
+    container.innerHTML = `
+      <div class="loading">
+        Today's quiz answers are being updated. Please check again shortly.
+      </div>
+    `;
+
+    console.error(error);
+  }
+}
+
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+loadQuiz();
+</script>
+
+<!-- NATIVE AD -->
+<script async="async" data-cfasync="false"
+src="https://pl31041941.profitableratecpmnetwork.com/a8aed10f9bb9753673a72158b6a8ea32/invoke.js"></script>
+
+</body>
+  </html>
