@@ -1,37 +1,41 @@
-name: Telenor Auto Poster
+name: Telenor Quiz Daily Update
 
 on:
   workflow_dispatch:
 
   schedule:
-    # Pakistan time 5:00 AM = UTC 00:00
+    # Pakistan 5:00 AM = UTC 00:00
     - cron: "0 0 * * *"
 
+permissions:
+  contents: write
+
 jobs:
-  post:
+  update-quiz:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Test WordPress REST API
-        env:
-          WP_URL: ${{ secrets.WP_URL }}
-        run: |
-          echo "Testing WordPress REST API..."
-          curl -L -A "Mozilla/5.0" \
-            -H "Accept: application/json" \
-            "$WP_URL/wp-json/wp/v2/pages/26"
-
-      - name: Run Telenor Auto Poster
-        env:
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+      - name: Run Quiz Poster
         run: node poster.js
+
+      - name: Commit Updated Quiz
+        run: |
+          git config user.name "Telenor Quiz Bot"
+          git config user.email "bot@telenorquizpk.com"
+
+          git add quiz.json
+
+          git diff --cached --quiet || git commit -m "Update daily Telenor quiz"
+
+          git push
