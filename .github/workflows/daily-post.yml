@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Pakistan 5:00 AM = UTC 00:00
-    - cron: "0 0 * * *"
+    # Pakistan time 5:00 PM = UTC 12:00 PM
+    - cron: "0 12 * * *"
 
 permissions:
   contents: write
