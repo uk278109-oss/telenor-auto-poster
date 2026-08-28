@@ -1,30 +1,30 @@
 {
-  "date": "August 27, 2026",
+  "date": "August 28, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which mountain is Pakistan’s highest peak?",
-      "answer": "K2"
+      "question": "Which date is Defence Day?",
+      "answer": "6-Sep"
     },
     {
       "number": 2,
-      "question": "What is Pakistan’s highest civilian award?",
-      "answer": "Nishan-e-Pakistan"
+      "question": "Which date is Youm-e-Takbeer?",
+      "answer": "28-May"
     },
     {
       "number": 3,
-      "question": "What is Pakistan’s highest military award?",
-      "answer": "Nishan-e-Haider"
+      "question": "Which city is Pakistan’s federal capital?",
+      "answer": "Islamabad"
     },
     {
       "number": 4,
-      "question": "Which date is Pakistan’s Independence Day?",
-      "answer": "14-AUG"
+      "question": "Which national symbol is a traditional musical instrument?",
+      "answer": "Rubab"
     },
     {
       "number": 5,
-      "question": "When is Pakistan Day celebrated?",
-      "answer": "23-Mar"
+      "question": "Which traditional art is strongly associated with Pakistan’s cultural identity?",
+      "answer": "Truck Art"
     }
   ]
 }
