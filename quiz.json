@@ -3,28 +3,28 @@
   "quiz": [
     {
       "number": 1,
-      "question": "Which date is Defence Day?",
-      "answer": "6-Sep"
+      "question": "Who said ‘Unity, Faith, Discipline’?",
+      "answer": "Quaid-e-Azam"
     },
     {
       "number": 2,
-      "question": "Which date is Youm-e-Takbeer?",
-      "answer": "28-May"
+      "question": "Who said ‘Work, Work and Work’?",
+      "answer": "Quaid-e-Azam"
     },
     {
       "number": 3,
-      "question": "Which city is Pakistan’s federal capital?",
-      "answer": "Islamabad"
+      "question": "There is no power on earth that can _____ Pakistan.",
+      "answer": "Undo"
     },
     {
       "number": 4,
-      "question": "Which national symbol is a traditional musical instrument?",
-      "answer": "Rubab"
+      "question": "______ is a word unknown to me.",
+      "answer": "Failure"
     },
     {
       "number": 5,
-      "question": "Which traditional art is strongly associated with Pakistan’s cultural identity?",
-      "answer": "Truck Art"
+      "question": "Expect the best, _____ for the worst.",
+      "answer": "Prepare"
     }
   ]
 }
