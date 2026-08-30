@@ -1,10 +1,10 @@
 {
-  "date": "August 29, 2026",
+  "date": "August 30, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Who said ‘Unity, Faith, Discipline’?",
-      "answer": "Quaid-e-Azam"
+      "question": "Think ___ times before you take a decision",
+      "answer": "100"
     },
     {
       "number": 2,
@@ -13,18 +13,18 @@
     },
     {
       "number": 3,
-      "question": "There is no power on earth that can _____ Pakistan.",
-      "answer": "Undo"
+      "question": "Who wrote ‘Khudi ko kar buland itna’?",
+      "answer": "Allama Iqbal"
     },
     {
       "number": 4,
-      "question": "______ is a word unknown to me.",
-      "answer": "Failure"
+      "question": "______ se aage jahan aur bhi hain.",
+      "answer": "Sitaron"
     },
     {
       "number": 5,
-      "question": "Expect the best, _____ for the worst.",
-      "answer": "Prepare"
+      "question": "Tu Shaheen hai, _____ hai kaam tera.",
+      "answer": "Parvaz"
     }
   ]
 }
