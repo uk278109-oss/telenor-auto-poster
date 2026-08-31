@@ -1,15 +1,15 @@
 {
-  "date": "August 30, 2026",
+  "date": "August 31, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Think ___ times before you take a decision",
-      "answer": "100"
+      "question": "Who wrote “Lab pe aati hai dua”?",
+      "answer": "Allama Iqbal"
     },
     {
       "number": 2,
-      "question": "Who said ‘Work, Work and Work’?",
-      "answer": "Quaid-e-Azam"
+      "question": "Who wrote ‘Bol ke lab azaad hain tere’?",
+      "answer": "Faiz Ahmed Faiz"
     },
     {
       "number": 3,
@@ -18,13 +18,13 @@
     },
     {
       "number": 4,
-      "question": "______ se aage jahan aur bhi hain.",
-      "answer": "Sitaron"
+      "question": "Mujh se _____ si mohabbat mere mehboob na maang.",
+      "answer": "Pehli"
     },
     {
       "number": 5,
-      "question": "Tu Shaheen hai, _____ hai kaam tera.",
-      "answer": "Parvaz"
+      "question": "Durr _____ ka mere dam se andhera ho jaye.",
+      "answer": "Dunya"
     }
   ]
 }
