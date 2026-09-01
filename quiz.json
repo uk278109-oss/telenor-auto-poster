@@ -1,30 +1,30 @@
 {
-  "date": "August 31, 2026",
+  "date": "September 1, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Who wrote “Lab pe aati hai dua”?",
-      "answer": "Allama Iqbal"
+      "question": "Who said “Education is the most powerful weapon”?",
+      "answer": "Nelson Mandela"
     },
     {
       "number": 2,
-      "question": "Who wrote ‘Bol ke lab azaad hain tere’?",
-      "answer": "Faiz Ahmed Faiz"
+      "question": "“It always seems _____ until it’s done.”",
+      "answer": "Impossible"
     },
     {
       "number": 3,
-      "question": "Who wrote ‘Khudi ko kar buland itna’?",
-      "answer": "Allama Iqbal"
+      "question": "“Be the ____ that you wish to see.”",
+      "answer": "Change"
     },
     {
       "number": 4,
-      "question": "Mujh se _____ si mohabbat mere mehboob na maang.",
-      "answer": "Pehli"
+      "question": "Hardwork is the ____ to success.",
+      "answer": "Key"
     },
     {
       "number": 5,
-      "question": "Durr _____ ka mere dam se andhera ho jaye.",
-      "answer": "Dunya"
+      "question": "Who said ‘The only way to do great work is to love what you do’?",
+      "answer": "Steve Jobs"
     }
   ]
 }
