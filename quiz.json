@@ -1,30 +1,30 @@
 {
-  "date": "September 2, 2026",
+  "date": "September 3, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "You are ______ to go to your temples, mosques or any other place of worship.",
-      "answer": "Allowed"
+      "question": "Aadmi ko bhi muyassar nahi insaan hona’ is a poetic verse of ________",
+      "answer": "Ghalib"
     },
     {
       "number": 2,
-      "question": "Who said “In the middle of difficulty lies opportunity”?",
-      "answer": "Albert Einstein"
+      "question": "Who wrote the revolutionary poetry ‘Mein Nahi Maanta’?",
+      "answer": "Habib Jalib"
     },
     {
       "number": 3,
-      "question": "Who discovered Gravity?",
-      "answer": "Issac Newton"
+      "question": "Who said ‘They can kill me, but they cannot kill my ideas’?",
+      "answer": "Benazir Bhutto"
     },
     {
       "number": 4,
-      "question": "Who wrote Shikwa & Jawab e Shikwa?",
-      "answer": "Allama Iqbal"
+      "question": "Aik hon ______ haram ki pasbani ke liye.",
+      "answer": "Muslim"
     },
     {
       "number": 5,
-      "question": "Sohni _______ Allah rakhay.",
-      "answer": "Dharti"
+      "question": "Who said ‘We are what we repeatedly do’?",
+      "answer": "Aristotle"
     }
   ]
 }
