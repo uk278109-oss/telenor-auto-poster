@@ -1,30 +1,30 @@
 {
-  "date": "September 3, 2026",
+  "date": "September 4, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Aadmi ko bhi muyassar nahi insaan hona’ is a poetic verse of ________",
-      "answer": "Ghalib"
+      "question": "Your heart knows the way, run in that direction’ was said by which sufi saint?",
+      "answer": "Rumi"
     },
     {
       "number": 2,
-      "question": "Who wrote the revolutionary poetry ‘Mein Nahi Maanta’?",
-      "answer": "Habib Jalib"
+      "question": "Hazaron _______ easi, ke har khuahish pe dam nikley.",
+      "answer": "Khuahishen"
     },
     {
       "number": 3,
-      "question": "Who said ‘They can kill me, but they cannot kill my ideas’?",
-      "answer": "Benazir Bhutto"
+      "question": "Who said ‘The greatest glory in living lies not in never falling’?",
+      "answer": "Nelson Mandela"
     },
     {
       "number": 4,
-      "question": "Aik hon ______ haram ki pasbani ke liye.",
-      "answer": "Muslim"
+      "question": "Barri mushkil se hota hai _____ mein deedawar paida.",
+      "answer": "Chaman"
     },
     {
       "number": 5,
-      "question": "Who said ‘We are what we repeatedly do’?",
-      "answer": "Aristotle"
+      "question": "Who said ‘Education is the key to success’?",
+      "answer": "Quaid-e-Azam"
     }
   ]
 }
