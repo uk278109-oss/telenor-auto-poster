@@ -1,30 +1,30 @@
 {
-  "date": "September 4, 2026",
+  "date": "September 5, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Your heart knows the way, run in that direction’ was said by which sufi saint?",
-      "answer": "Rumi"
+      "question": "Complete the lyric: “Dil Dil Pakistan, Jaan Jaan ___”",
+      "answer": "Pakistan"
     },
     {
       "number": 2,
-      "question": "Hazaron _______ easi, ke har khuahish pe dam nikley.",
-      "answer": "Khuahishen"
+      "question": "Who sang the iconic national song “Dil Dil Pakistan”?",
+      "answer": "Vital Sign"
     },
     {
       "number": 3,
-      "question": "Who said ‘The greatest glory in living lies not in never falling’?",
-      "answer": "Nelson Mandela"
+      "question": "Complete the lyric: “Jeevay Jeevay ___”",
+      "answer": "Pakistan"
     },
     {
       "number": 4,
-      "question": "Barri mushkil se hota hai _____ mein deedawar paida.",
-      "answer": "Chaman"
+      "question": "Complete the lyric: “Sohni Dharti Allah Rakhay, Qadam Qadam ___”",
+      "answer": "National"
     },
     {
       "number": 5,
       "question": "Who said ‘Education is the key to success’?",
-      "answer": "Quaid-e-Azam"
+      "answer": "Aabad"
     }
   ]
 }
