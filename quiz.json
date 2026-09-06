@@ -1,30 +1,30 @@
 {
-  "date": "September 5, 2026",
+  "date": "September 6, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Complete the lyric: “Dil Dil Pakistan, Jaan Jaan ___”",
-      "answer": "Pakistan"
+      "question": "Which band sang “Jazba-e-Junoon”?",
+      "answer": "Junoon"
     },
     {
       "number": 2,
-      "question": "Who sang the iconic national song “Dil Dil Pakistan”?",
-      "answer": "Vital Sign"
+      "question": "Complete the lyric: “Hai Jazba-e-Junoon Tou Himmat ___”",
+      "answer": "Na haar"
     },
     {
       "number": 3,
-      "question": "Complete the lyric: “Jeevay Jeevay ___”",
-      "answer": "Pakistan"
+      "question": "Ae Rah-e-Haq Ke Shaheedo” pays tribute to Pakistan’s ___",
+      "answer": "Artists"
     },
     {
       "number": 4,
-      "question": "Complete the lyric: “Sohni Dharti Allah Rakhay, Qadam Qadam ___”",
-      "answer": "National"
+      "question": "Who originally sang “Ae Watan Pyare Watan”?",
+      "answer": "Ustad Amanat Ali Khan"
     },
     {
       "number": 5,
-      "question": "Who said ‘Education is the key to success’?",
-      "answer": "Aabad"
+      "question": "Complete the famous line: “Is Parcham ke Saaye Talay Hum ___ Hain”",
+      "answer": "Aik"
     }
   ]
 }
