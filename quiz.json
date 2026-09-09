@@ -1,30 +1,30 @@
 {
-  "date": "September 8, 2026",
+  "date": "September 9, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Pakistan cricket team is also called the ___",
-      "answer": "Shaheens"
+      "question": "Complete the lyric: “Hum Laaye Hain Toofan Se ___ Nikaal Ke”",
+      "answer": "Kashti"
     },
     {
       "number": 2,
-      "question": "Imran Khan played which role in the team?",
-      "answer": "All-rounder"
+      "question": "Complete the title: “Aye Watan ___ Watan”",
+      "answer": "Mere"
     },
     {
       "number": 3,
-      "question": "Pakistan won the Cricket World Cup in ___.",
-      "answer": "1992"
+      "question": "Who sang the famous national song",
+      "answer": "Ustad Amanat Ali Khan"
     },
     {
       "number": 4,
-      "question": "Mohammad Hafeez is known as the ___.",
-      "answer": "Professor"
+      "question": "Complete the lyric: “Apni Jaan Nazar Karoon, Apni ___ Pesh Karoon”",
+      "answer": "Wafa"
     },
     {
       "number": 5,
-      "question": "The 2009 T20 WC Final was played at ___.",
-      "answer": "Lord's"
+      "question": "“Apni Jaan Nazar Karoon”",
+      "answer": "Mehdi Hassan"
     }
   ]
 }
