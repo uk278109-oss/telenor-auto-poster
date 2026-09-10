@@ -1,30 +1,30 @@
 {
-  "date": "September 9, 2026",
+  "date": "September 10, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Complete the lyric: “Hum Laaye Hain Toofan Se ___ Nikaal Ke”",
-      "answer": "Kashti"
+      "question": "Who sang “Watan ki mitti gawah rehna”?",
+      "answer": "Nayyara Noor"
     },
     {
       "number": 2,
-      "question": "Complete the title: “Aye Watan ___ Watan”",
-      "answer": "Mere"
+      "question": "Complete the title: “Chand Meri ___”",
+      "answer": "Zameen"
     },
     {
       "number": 3,
-      "question": "Who sang the famous national song",
+      "question": "“Chand Meri Zameen” was sung by which famous Pakistani singer?",
       "answer": "Ustad Amanat Ali Khan"
     },
     {
       "number": 4,
-      "question": "Complete the lyric: “Apni Jaan Nazar Karoon, Apni ___ Pesh Karoon”",
-      "answer": "Wafa"
+      "question": "Which word completes the song title: “Khayaal ____”?",
+      "answer": "Rakhna"
     },
     {
       "number": 5,
-      "question": "“Apni Jaan Nazar Karoon”",
-      "answer": "Mehdi Hassan"
+      "question": "Which singer is famously known as “Malika-e-Tarannum”?",
+      "answer": "Noor Jehan"
     }
   ]
 }
