@@ -1,30 +1,30 @@
 {
-  "date": "September 10, 2026",
+  "date": "September 11, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Who sang “Watan ki mitti gawah rehna”?",
-      "answer": "Nayyara Noor"
+      "question": "The patriotic song “Aye Jawan” is dedicated to whom",
+      "answer": "Young people"
     },
     {
       "number": 2,
-      "question": "Complete the title: “Chand Meri ___”",
-      "answer": "Zameen"
+      "question": "“Aye Jawan” was performed by which Pakistani band?",
+      "answer": "Awaz"
     },
     {
       "number": 3,
-      "question": "“Chand Meri Zameen” was sung by which famous Pakistani singer?",
-      "answer": "Ustad Amanat Ali Khan"
+      "question": "Complete the famous lyric: “Yeh Zameen Tumhari Hai, Yeh ___ Tumhara Hai”",
+      "answer": "Watan"
     },
     {
       "number": 4,
-      "question": "Which word completes the song title: “Khayaal ____”?",
-      "answer": "Rakhna"
+      "question": "Which national song is strongly associated with Independence Day celebrations in Pakistan?",
+      "answer": "Dil Dil Pakistan"
     },
     {
       "number": 5,
-      "question": "Which singer is famously known as “Malika-e-Tarannum”?",
-      "answer": "Noor Jehan"
+      "question": "Complete the lyric: “Dil se Maine Dekha ___”",
+      "answer": "Pakistan"
     }
   ]
 }
