@@ -1,30 +1,30 @@
 {
-  "date": "September 11, 2026",
+  "date": "September 12, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "The patriotic song “Aye Jawan” is dedicated to whom",
-      "answer": "Young people"
+      "question": "Which organ pump blood around the body?",
+      "answer": "Heart"
     },
     {
       "number": 2,
-      "question": "“Aye Jawan” was performed by which Pakistani band?",
-      "answer": "Awaz"
+      "question": "What do we use to breathe?",
+      "answer": "Lungs"
     },
     {
       "number": 3,
-      "question": "Complete the famous lyric: “Yeh Zameen Tumhari Hai, Yeh ___ Tumhara Hai”",
-      "answer": "Watan"
+      "question": "Which organ help us think and remember?",
+      "answer": "Brain"
     },
     {
       "number": 4,
-      "question": "Which national song is strongly associated with Independence Day celebrations in Pakistan?",
-      "answer": "Dil Dil Pakistan"
+      "question": "What is the largest organ of the human body?",
+      "answer": "Skin"
     },
     {
       "number": 5,
-      "question": "Complete the lyric: “Dil se Maine Dekha ___”",
-      "answer": "Pakistan"
+      "question": "How many bones does an adult human body have approximately?",
+      "answer": "206"
     }
   ]
 }
