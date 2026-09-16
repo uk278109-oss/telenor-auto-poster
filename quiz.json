@@ -1,30 +1,30 @@
 {
-  "date": "September 15, 2026",
+  "date": "September 16, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "How many pairs of ribs does a typical human have?",
-      "answer": "12"
+      "question": "What connects bones to other bones?",
+      "answer": "Ligamnets"
     },
     {
       "number": 2,
-      "question": "How many teeth does a typical adult have, including wisdom teeth?",
-      "answer": "32"
+      "question": "Which organ produces bile?",
+      "answer": "Liver"
     },
     {
       "number": 3,
-      "question": "What connects the head to the rest of the body?",
-      "answer": "Neck"
+      "question": "Which organ enables vision?",
+      "answer": "Eyes"
     },
     {
       "number": 4,
-      "question": "Which part connects the hand to the arm?",
-      "answer": "Wrist"
+      "question": "Which organ is mainly responsible for making urine?",
+      "answer": "Kidneys"
     },
     {
       "number": 5,
-      "question": "Which part connects the foot to the leg?",
-      "answer": "Ankle"
+      "question": "Which organ helps control blood sugar?",
+      "answer": "Pancreas"
     }
   ]
 }
