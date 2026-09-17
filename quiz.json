@@ -1,30 +1,30 @@
 {
-  "date": "September 16, 2026",
+  "date": "September 17, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What connects bones to other bones?",
-      "answer": "Ligamnets"
+      "question": "Which muscle works continuously to pump blood?",
+      "answer": "Heart muscle"
     },
     {
       "number": 2,
-      "question": "Which organ produces bile?",
-      "answer": "Liver"
+      "question": "What usually happens to your heartbeat when you exercise?",
+      "answer": "It speeds up"
     },
     {
       "number": 3,
-      "question": "Which organ enables vision?",
-      "answer": "Eyes"
+      "question": "What usually happens to your breathing when you exercise?",
+      "answer": "It becomes faster"
     },
     {
       "number": 4,
-      "question": "Which organ is mainly responsible for making urine?",
+      "question": "What does the skin mainly protect us from?",
       "answer": "Kidneys"
     },
     {
       "number": 5,
-      "question": "Which organ helps control blood sugar?",
-      "answer": "Pancreas"
+      "question": "Why do we sweat?",
+      "answer": "to strengthen bones"
     }
   ]
 }
