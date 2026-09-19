@@ -1,30 +1,30 @@
 {
-  "date": "September 18, 2026",
+  "date": "September 19, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which bone protects the brain?",
-      "answer": "Skull"
+      "question": "Which animal is the fastest on land?",
+      "answer": "Cheetah"
     },
     {
       "number": 2,
-      "question": "Where does most digestion and absorption of food happen?when you exercise?",
-      "answer": "Small intestine"
+      "question": "Which animal is known for carrying its baby in a pouch?",
+      "answer": "Kangaroo"
     },
     {
       "number": 3,
-      "question": "What is the hardest substance in the human body?",
-      "answer": "tooth enemel"
+      "question": "Which bird cannot fly but is an excellent swimmer?",
+      "answer": "Penguin"
     },
     {
       "number": 4,
-      "question": "What connects muscles to bones?",
-      "answer": "Tendons"
+      "question": "Which animal is famous for moving very slowly?",
+      "answer": "Sloth"
     },
     {
       "number": 5,
-      "question": "What is the largest internal organ?",
-      "answer": "Liver"
+      "question": "Which animal can use its trunk to pick up food and spray water?",
+      "answer": "Elephant"
     }
   ]
 }
