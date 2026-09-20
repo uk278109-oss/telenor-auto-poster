@@ -1,30 +1,30 @@
 {
-  "date": "September 19, 2026",
+  "date": "September 20, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which animal is the fastest on land?",
-      "answer": "Cheetah"
+      "question": "Which bird is famous for its excellent eyesight?",
+      "answer": "Eagle"
     },
     {
       "number": 2,
-      "question": "Which animal is known for carrying its baby in a pouch?",
-      "answer": "Kangaroo"
+      "question": "Which animal is well known for having a strong sense of smell?",
+      "answer": "Dog"
     },
     {
       "number": 3,
-      "question": "Which bird cannot fly but is an excellent swimmer?",
-      "answer": "Penguin"
+      "question": "Which animal uses echolocation to find its way in the dark?",
+      "answer": "Bat"
     },
     {
       "number": 4,
-      "question": "Which animal is famous for moving very slowly?",
-      "answer": "Sloth"
+      "question": "Which animal uses its whiskers to help sense nearby objects and movement?",
+      "answer": "Cat"
     },
     {
       "number": 5,
-      "question": "Which animal can use its trunk to pick up food and spray water?",
-      "answer": "Elephant"
+      "question": "Which animal can move its eyes in different directions at the same time?",
+      "answer": "Chameleon"
     }
   ]
 }
