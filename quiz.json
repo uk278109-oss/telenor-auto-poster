@@ -1,30 +1,30 @@
 {
-  "date": "September 20, 2026",
+  "date": "September 21, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which bird is famous for its excellent eyesight?",
-      "answer": "Eagle"
+      "question": "Which bird can hover in one place while flying?",
+      "answer": "Hummingbird"
     },
     {
       "number": 2,
-      "question": "Which animal is well known for having a strong sense of smell?",
-      "answer": "Dog"
+      "question": "Which animal’s black-and-white stripes help it blend in with a herd?",
+      "answer": "Zebra"
     },
     {
       "number": 3,
-      "question": "Which animal uses echolocation to find its way in the dark?",
-      "answer": "Bat"
+      "question": "Which bird is famous for its excellent eyesight?",
+      "answer": "Leopard"
     },
     {
       "number": 4,
-      "question": "Which animal uses its whiskers to help sense nearby objects and movement?",
-      "answer": "Cat"
+      "question": "Which Arctic animal has white fur that helps it blend into snowy surroundings?",
+      "answer": "Polar Bear"
     },
     {
       "number": 5,
-      "question": "Which animal can move its eyes in different directions at the same time?",
-      "answer": "Chameleon"
+      "question": "Which sea creature can change colour to help hide from predators?",
+      "answer": "Octopus"
     }
   ]
 }
