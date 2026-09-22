@@ -1,30 +1,30 @@
 {
-  "date": "September 21, 2026",
+  "date": "September 22, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which bird can hover in one place while flying?",
-      "answer": "Hummingbird"
+      "question": "Which animal stores fat in its hump to help it survive in the desert?",
+      "answer": "Camel"
     },
     {
       "number": 2,
-      "question": "Which animal’s black-and-white stripes help it blend in with a herd?",
-      "answer": "Zebra"
+      "question": "Which animal can curl into a ball for protection?",
+      "answer": "Hedgehog"
     },
     {
       "number": 3,
-      "question": "Which bird is famous for its excellent eyesight?",
-      "answer": "Leopard"
+      "question": "Which animal can regrow it’s tail after losing it?",
+      "answer": "Lizard"
     },
     {
       "number": 4,
-      "question": "Which Arctic animal has white fur that helps it blend into snowy surroundings?",
-      "answer": "Polar Bear"
+      "question": "Which animal protects itself with a hard shell?",
+      "answer": "Turtle"
     },
     {
       "number": 5,
       "question": "Which sea creature can change colour to help hide from predators?",
-      "answer": "Octopus"
+      "answer": "Chameleon"
     }
   ]
 }
