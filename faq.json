@@ -1,0 +1,24 @@
+{
+  "faqs": [
+    {
+      "question": "How many questions are in the daily quiz?",
+      "answer": "The current quiz system validates exactly 5 questions."
+    },
+    {
+      "question": "When is the quiz updated?",
+      "answer": "The automated system checks for the current Pakistan-date quiz multiple times."
+    },
+    {
+      "question": "Can an old quiz replace today's quiz?",
+      "answer": "No. The verification system requires today's Pakistan date before accepting the quiz."
+    },
+    {
+      "question": "What happens if today's quiz is not available?",
+      "answer": "The existing quiz data is kept and the update fails safely instead of publishing an unverified old quiz."
+    },
+    {
+      "question": "Are the answers verified?",
+      "answer": "The system extracts the answer shown with each question from the configured quiz source."
+    }
+  ]
+}
