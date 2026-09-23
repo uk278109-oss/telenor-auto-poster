@@ -4,8 +4,18 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Pakistan time 5:00 PM = UTC 12:00 PM
-    - cron: "0 12 * * *"
+    # Pakistan time:
+    # 5:00 PM  = UTC 12:00
+    # 6:00 PM  = UTC 13:00
+    # 7:00 PM  = UTC 14:00
+    # 8:00 PM  = UTC 15:00
+    # 9:00 PM  = UTC 16:00
+    # 10:00 PM = UTC 17:00
+    # 11:00 PM = UTC 18:00
+    - cron: "0 12-18 * * *"
+
+    # 12:05 AM Pakistan time
+    - cron: "5 19 * * *"
 
 permissions:
   contents: write
@@ -15,7 +25,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -36,6 +45,9 @@ jobs:
 
           git add quiz.json
 
-          git diff --cached --quiet || git commit -m "Update verified daily Telenor quiz"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No new quiz update."
+          else
+            git commit -m "Update verified daily Telenor quiz"
+            git push
+          fi
