@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "slug": "telenor-quiz-answers",
+      "title": "Telenor Quiz Answers",
+      "description": "Find the latest verified Telenor quiz answers and daily quiz information.",
+      "category": "Quiz Guide",
+      "content": "Check the latest daily Telenor quiz questions and verified answers. The quiz section is updated when the current quiz is successfully verified."
+    },
+    {
+      "slug": "how-to-check-telenor-quiz",
+      "title": "How to Check Telenor Quiz",
+      "description": "A simple guide to checking the daily Telenor quiz.",
+      "category": "Guide",
+      "content": "Open the latest quiz section and check the questions and verified answers for the current Pakistan date."
+    },
+    {
+      "slug": "telenor-quiz-faq",
+      "title": "Telenor Quiz FAQ",
+      "description": "Frequently asked questions about the daily Telenor quiz.",
+      "category": "FAQ",
+      "content": "The quiz system verifies the current date before saving new quiz data. Previous quiz data is not replaced when verification fails."
+    }
+  ]
+}
