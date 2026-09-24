@@ -1,30 +1,30 @@
 {
-  "date": "September 24, 2026",
+  "date": "September 25, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which sea creature can release ink when it feels threatened?",
-      "answer": "Squid"
+      "question": "Which animal is the tallest in the world?",
+      "answer": "Giraffe"
     },
     {
       "number": 2,
-      "question": "Which animal can produce an electric shock?",
-      "answer": "Salmon"
+      "question": "Which animal is the largest living animal on Earth?",
+      "answer": "Blue Whale"
     },
     {
       "number": 3,
-      "question": "Which animal can stick to and climb smooth walls?",
-      "answer": "Gecko"
+      "question": "Which bird has a long neck and is known for running very fast?",
+      "answer": "Ostrich"
     },
     {
       "number": 4,
-      "question": "Which animal spins a web to catch its food?",
-      "answer": "Spider"
+      "question": "Which animal is famous for building dams?",
+      "answer": "Beaver"
     },
     {
       "number": 5,
-      "question": "Which insect can carry objects many times its own body weight?",
-      "answer": "Ant"
+      "question": "Which bird can copy human speech and other sounds?",
+      "answer": "Parrot"
     }
   ]
 }
