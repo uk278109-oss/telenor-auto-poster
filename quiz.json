@@ -1,30 +1,30 @@
 {
-  "date": "September 23, 2026",
+  "date": "September 24, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which bird often flies to warmer places when seasons change?",
-      "answer": "Migratory Bird"
+      "question": "Which sea creature can release ink when it feels threatened?",
+      "answer": "Squid"
     },
     {
       "number": 2,
-      "question": "Which fish is famous for swimming upstream to reproduce?",
+      "question": "Which animal can produce an electric shock?",
       "answer": "Salmon"
     },
     {
       "number": 3,
-      "question": "Which insect is famous for travelling long distances during migration?",
-      "answer": "Monarch Butterfly"
+      "question": "Which animal can stick to and climb smooth walls?",
+      "answer": "Gecko"
     },
     {
       "number": 4,
-      "question": "Why do many animals migrate?",
-      "answer": "To find food or warmer conditions"
+      "question": "Which animal spins a web to catch its food?",
+      "answer": "Spider"
     },
     {
       "number": 5,
-      "question": "Which large sea animal travels thousands of kilometres between feeding and breeding areas?",
-      "answer": "Whale"
+      "question": "Which insect can carry objects many times its own body weight?",
+      "answer": "Ant"
     }
   ]
 }
