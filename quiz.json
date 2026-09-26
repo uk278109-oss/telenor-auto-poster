@@ -1,30 +1,30 @@
 {
-  "date": "September 26, 2026",
+  "date": "September 27, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Gracias” is a way of saying “Thank you” in which language",
-      "answer": "Spanish"
+      "question": "Which language is mainly spoken in South Korea?",
+      "answer": "Korean"
     },
     {
       "number": 2,
-      "question": "Which language is the official language of Brazil?",
-      "answer": "Portuguese"
+      "question": "Which language is one of the official languages of Switzerland?",
+      "answer": "German"
     },
     {
       "number": 3,
-      "question": "“Ciao” can mean both “Hello” and “Goodbye” in which language?",
-      "answer": "Italian"
+      "question": "What is &#8220;Hola&#8221; most commonly used to say?",
+      "answer": "Hello"
     },
     {
       "number": 4,
-      "question": "“Bonjour” is commonly used in which language?",
-      "answer": "French"
+      "question": "Which language is written from right to left?",
+      "answer": "Arabic"
     },
     {
       "number": 5,
-      "question": "Which language is mainly spoken in Russia?",
-      "answer": "Russian"
+      "question": "Hindi and Urdu share many similarities in which area?",
+      "answer": "Spoken vocabulary"
     }
   ]
 }
