@@ -1,30 +1,30 @@
 {
-  "date": "September 27, 2026",
+  "date": "September 28, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which language is mainly spoken in South Korea?",
-      "answer": "Korean"
+      "question": "Which language is associated with the country of Japan?",
+      "answer": "Japanese"
     },
     {
       "number": 2,
-      "question": "Which language is one of the official languages of Switzerland?",
-      "answer": "German"
-    },
-    {
-      "number": 3,
-      "question": "What is &#8220;Hola&#8221; most commonly used to say?",
-      "answer": "Hello"
-    },
-    {
-      "number": 4,
-      "question": "Which language is written from right to left?",
+      "question": "Which of these languages is spoken in Egypt?",
       "answer": "Arabic"
     },
     {
+      "number": 3,
+      "question": "“Namaste” is a common greeting associated with which language?",
+      "answer": "Hindi"
+    },
+    {
+      "number": 4,
+      "question": "Which language would you most likely hear in a traditional Turkish TV drama?",
+      "answer": "Turkish"
+    },
+    {
       "number": 5,
-      "question": "Hindi and Urdu share many similarities in which area?",
-      "answer": "Spoken vocabulary"
+      "question": "The word “Piano” comes from which language?",
+      "answer": "Ilalian"
     }
   ]
 }
