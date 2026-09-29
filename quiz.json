@@ -1,30 +1,30 @@
 {
-  "date": "September 28, 2026",
+  "date": "September 29, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which language is associated with the country of Japan?",
-      "answer": "Japanese"
+      "question": "In Turkish, what does “Merhaba” mean?",
+      "answer": "Hello"
     },
     {
       "number": 2,
-      "question": "Which of these languages is spoken in Egypt?",
-      "answer": "Arabic"
+      "question": "Which language is commonly associated with the phrase “Hola”?",
+      "answer": "Spanish"
     },
     {
       "number": 3,
-      "question": "“Namaste” is a common greeting associated with which language?",
-      "answer": "Hindi"
+      "question": "“Shukran” means “Thank you” in which language?",
+      "answer": "Arabic"
     },
     {
       "number": 4,
-      "question": "Which language would you most likely hear in a traditional Turkish TV drama?",
-      "answer": "Turkish"
+      "question": "Which language is commonly used in K-pop songs?",
+      "answer": "Korean"
     },
     {
       "number": 5,
-      "question": "The word “Piano” comes from which language?",
-      "answer": "Ilalian"
+      "question": "Which language is spoken in both Spain and Mexico?",
+      "answer": "Spanish"
     }
   ]
 }
