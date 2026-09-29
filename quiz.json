@@ -1,30 +1,30 @@
 {
-  "date": "September 29, 2026",
+  "date": "September 30, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "In Turkish, what does “Merhaba” mean?",
-      "answer": "Hello"
+      "question": "Which of these languages uses the Devanagari script?",
+      "answer": "Hindi"
     },
     {
       "number": 2,
-      "question": "Which language is commonly associated with the phrase “Hola”?",
-      "answer": "Spanish"
+      "question": "Which language is commonly heard in Bollywood movies?",
+      "answer": "Hindi"
     },
     {
       "number": 3,
-      "question": "“Shukran” means “Thank you” in which language?",
-      "answer": "Arabic"
+      "question": "Saraiki is particularly associated with which region of Pakistan?",
+      "answer": "Southern Punjab"
     },
     {
       "number": 4,
-      "question": "Which language is commonly used in K-pop songs?",
-      "answer": "Korean"
+      "question": "What does the Punjabi word “Pind” usually refer to?",
+      "answer": "Village"
     },
     {
       "number": 5,
-      "question": "Which language is spoken in both Spain and Mexico?",
-      "answer": "Spanish"
+      "question": "What does the Saraiki word “Dhola” commonly refer to in songs/poetry?",
+      "answer": "A beloved"
     }
   ]
 }
