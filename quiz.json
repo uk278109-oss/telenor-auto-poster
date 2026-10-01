@@ -1,30 +1,30 @@
 {
-  "date": "October 1, 2026",
+  "date": "October 2, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which language is mainly spoken in Portugal?",
-      "answer": "Portuguese"
+      "question": "Pakistan's National Anthem is written mainly in which language?",
+      "answer": "Urdu"
     },
     {
       "number": 2,
-      "question": "What does the Japanese word “Sakura” refer to?",
-      "answer": "Cherry Blossom"
+      "question": "What does the Arabic word &#8220;Qalb&#8221; mean?",
+      "answer": "Heart"
     },
     {
       "number": 3,
-      "question": "“Merci” means what in French?",
-      "answer": "Thankyou"
+      "question": "What does the Urdu poetic word &#8220;Nadaan&#8221; mean?",
+      "answer": "Innocent"
     },
     {
       "number": 4,
-      "question": "Which language is mainly spoken in Iran?",
-      "answer": "Persian"
+      "question": "The poetry of Bulleh Shah is most famously associated with which language?",
+      "answer": "Punjabi"
     },
     {
       "number": 5,
-      "question": "Which language is mainly spoken in Greece?",
-      "answer": "Greek"
+      "question": "What does the poetic word &#8220;Firaaq&#8221; generally refer to?",
+      "answer": "Longing"
     }
   ]
 }
