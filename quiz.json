@@ -1,30 +1,30 @@
 {
-  "date": "September 30, 2026",
+  "date": "October 1, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which of these languages uses the Devanagari script?",
-      "answer": "Hindi"
+      "question": "Which language is mainly spoken in Portugal?",
+      "answer": "Portuguese"
     },
     {
       "number": 2,
-      "question": "Which language is commonly heard in Bollywood movies?",
-      "answer": "Hindi"
+      "question": "What does the Japanese word “Sakura” refer to?",
+      "answer": "Cherry Blossom"
     },
     {
       "number": 3,
-      "question": "Saraiki is particularly associated with which region of Pakistan?",
-      "answer": "Southern Punjab"
+      "question": "“Merci” means what in French?",
+      "answer": "Thankyou"
     },
     {
       "number": 4,
-      "question": "What does the Punjabi word “Pind” usually refer to?",
-      "answer": "Village"
+      "question": "Which language is mainly spoken in Iran?",
+      "answer": "Persian"
     },
     {
       "number": 5,
-      "question": "What does the Saraiki word “Dhola” commonly refer to in songs/poetry?",
-      "answer": "A beloved"
+      "question": "Which language is mainly spoken in Greece?",
+      "answer": "Greek"
     }
   ]
 }
