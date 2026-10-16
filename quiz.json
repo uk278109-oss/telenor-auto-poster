@@ -1,30 +1,30 @@
 {
-  "date": "October 2, 2026",
+  "date": "October 17, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Pakistan's National Anthem is written mainly in which language?",
-      "answer": "Urdu"
+      "question": "What does the English idiom “Piece of cake” mean?",
+      "answer": "Very easy"
     },
     {
       "number": 2,
-      "question": "What does the Arabic word &#8220;Qalb&#8221; mean?",
-      "answer": "Heart"
+      "question": "What does the Urdu idiom “Dil chhota karna” mean?",
+      "answer": "To lose hope or be discouraged"
     },
     {
       "number": 3,
-      "question": "What does the Urdu poetic word &#8220;Nadaan&#8221; mean?",
-      "answer": "Innocent"
+      "question": "What does the English idiom “Break the ice” mean?",
+      "answer": "Start a conversation"
     },
     {
       "number": 4,
-      "question": "The poetry of Bulleh Shah is most famously associated with which language?",
-      "answer": "Punjabi"
+      "question": "What does the Urdu idiom “Daal na galna” mean?",
+      "answer": "To fail or not succeed"
     },
     {
       "number": 5,
-      "question": "What does the poetic word &#8220;Firaaq&#8221; generally refer to?",
-      "answer": "Longing"
+      "question": "What does the English idiom “Spill the beans” mean?",
+      "answer": "Reveal a secret"
     }
   ]
 }
