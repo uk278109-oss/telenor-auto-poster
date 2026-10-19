@@ -1,30 +1,30 @@
 {
-  "date": "October 19, 2026",
+  "date": "October 20, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What does the English idiom &#8220;Under the weather&#8221; mean?",
-      "answer": "Feeling sick"
+      "question": "What does the Urdu idiom &#8220;Range haathon pakra jana&#8221; mean?",
+      "answer": "To be caught doing something wrong"
     },
     {
       "number": 2,
-      "question": "What does the Urdu idiom &#8220;Munh ki khana&#8221; mean?",
-      "answer": "To face defeat"
+      "question": "What does the English idiom &#8220;Miss the boat&#8221; mean?",
+      "answer": "Miss an opportunity"
     },
     {
       "number": 3,
-      "question": "What does the English idiom &#8220;Cost an arm and a leg&#8221; mean?",
-      "answer": "Very expensive"
+      "question": "What does the Urdu idiom &#8220;Haath batana&#8221; mean?",
+      "answer": "To help someone"
     },
     {
       "number": 4,
-      "question": "What does the Urdu idiom &#8220;Aankhon ka taara&#8221; refer to?",
-      "answer": "A beloved person"
+      "question": "What does the English idiom &#8220;Burn the midnight oil&#8221; mean?",
+      "answer": "Stay up late working or studying"
     },
     {
       "number": 5,
-      "question": "What does the English idiom &#8220;On cloud nine&#8221; mean?",
-      "answer": "Very happy"
+      "question": "What does the Urdu idiom &#8220;Naak kat jana&#8221; mean?",
+      "answer": "To lose respect"
     }
   ]
 }
