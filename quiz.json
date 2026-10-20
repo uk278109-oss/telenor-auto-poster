@@ -1,30 +1,30 @@
 {
-  "date": "October 20, 2026",
+  "date": "October 21, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What does the Urdu idiom &#8220;Range haathon pakra jana&#8221; mean?",
-      "answer": "To be caught doing something wrong"
+      "question": "What does the English idiom &#8220;The ball is in your court&#8221; mean?",
+      "answer": "It's your turn to decide"
     },
     {
       "number": 2,
-      "question": "What does the English idiom &#8220;Miss the boat&#8221; mean?",
-      "answer": "Miss an opportunity"
+      "question": "What does the Urdu idiom &#8220;Kaan kharay hona&#8221; mean?",
+      "answer": "To become alert"
     },
     {
       "number": 3,
-      "question": "What does the Urdu idiom &#8220;Haath batana&#8221; mean?",
-      "answer": "To help someone"
+      "question": "What does the English idiom &#8220;Call it a day&#8221; mean?",
+      "answer": "Stop working or finish for the day"
     },
     {
       "number": 4,
-      "question": "What does the English idiom &#8220;Burn the midnight oil&#8221; mean?",
-      "answer": "Stay up late working or studying"
+      "question": "What does the Urdu idiom &#8220;Munh mein paani aana&#8221; mean?",
+      "answer": "To crave food"
     },
     {
       "number": 5,
-      "question": "What does the Urdu idiom &#8220;Naak kat jana&#8221; mean?",
-      "answer": "To lose respect"
+      "question": "What does the English idiom &#8220;Kill two birds with one stone&#8221; mean?",
+      "answer": "Achieve two goals with one effort"
     }
   ]
 }
