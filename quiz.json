@@ -1,29 +1,29 @@
 {
-  "date": "October 21, 2026",
+  "date": "October 22, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What does the English idiom &#8220;The ball is in your court&#8221; mean?",
-      "answer": "It's your turn to decide"
+      "question": "What does the Urdu idiom &#8220;Aag bagola hona&#8221; mean?",
+      "answer": "To become extremely angry"
     },
     {
       "number": 2,
-      "question": "What does the Urdu idiom &#8220;Kaan kharay hona&#8221; mean?",
-      "answer": "To become alert"
+      "question": "What does the English idiom &#8220;Let the cat out of the bag&#8221; mean?",
+      "answer": "Reveal a secret"
     },
     {
       "number": 3,
-      "question": "What does the English idiom &#8220;Call it a day&#8221; mean?",
-      "answer": "Stop working or finish for the day"
+      "question": "What does the Urdu idiom &#8220;Haath malna&#8221; mean?",
+      "answer": "To regret later"
     },
     {
       "number": 4,
-      "question": "What does the Urdu idiom &#8220;Munh mein paani aana&#8221; mean?",
-      "answer": "To crave food"
+      "question": "What does the English idiom &#8220;Out of the blue&#8221; mean?",
+      "answer": "Unexpectedly"
     },
     {
       "number": 5,
-      "question": "What does the English idiom &#8220;Kill two birds with one stone&#8221; mean?",
+      "question": "What does the Urdu idiom &#8220;Ek teer se do shikaar&#8221; mean?",
       "answer": "Achieve two goals with one effort"
     }
   ]
