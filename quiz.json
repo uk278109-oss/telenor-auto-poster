@@ -1,30 +1,30 @@
 {
-  "date": "October 25, 2026",
+  "date": "October 26, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which is the tallest living land animal?",
-      "answer": "Giraffe"
+      "question": "Which planet is famous for its bright rings?",
+      "answer": "Saturn"
     },
     {
       "number": 2,
-      "question": "Which insect makes honey?",
-      "answer": "Honeybee"
+      "question": "What is Earth's only natural satellite?",
+      "answer": "Moon"
     },
     {
       "number": 3,
-      "question": "Which flower is named after the Sun?",
-      "answer": "Sunflower"
+      "question": "Which tool makes tiny cells appear larger?",
+      "answer": "Microscope"
     },
     {
       "number": 4,
-      "question": "Which is the world's largest living bird?",
-      "answer": "Ostrich"
+      "question": "Which device is used to measure temperature?",
+      "answer": "Thermometer"
     },
     {
       "number": 5,
-      "question": "What animal has black-and-white stripes?",
-      "answer": "Zebra"
+      "question": "Which instrument helps astronomers study distant stars?",
+      "answer": "Telescope"
     }
   ]
 }
