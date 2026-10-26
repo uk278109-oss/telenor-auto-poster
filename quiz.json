@@ -1,30 +1,30 @@
 {
-  "date": "October 26, 2026",
+  "date": "October 27, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which planet is famous for its bright rings?",
-      "answer": "Saturn"
+      "question": "What is Pakistan's national flower?",
+      "answer": "Jasmine"
     },
     {
       "number": 2,
-      "question": "What is Earth's only natural satellite?",
-      "answer": "Moon"
+      "question": "Which bird is Pakistan's national bird?",
+      "answer": "Chakor"
     },
     {
       "number": 3,
-      "question": "Which tool makes tiny cells appear larger?",
-      "answer": "Microscope"
+      "question": "Which mountain is the second highest in the world?",
+      "answer": "K2"
     },
     {
       "number": 4,
-      "question": "Which device is used to measure temperature?",
-      "answer": "Thermometer"
+      "question": "Which statue was gifted to the United States by France?",
+      "answer": "Lady Liberty"
     },
     {
       "number": 5,
-      "question": "Which instrument helps astronomers study distant stars?",
-      "answer": "Telescope"
+      "question": "Which ancient wonder is in Giza, Egypt?",
+      "answer": "Great Pyramids"
     }
   ]
 }
