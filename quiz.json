@@ -1,30 +1,30 @@
 {
-  "date": "October 27, 2026",
+  "date": "October 28, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What is Pakistan's national flower?",
-      "answer": "Jasmine"
+      "question": "Which bird has a colourful tail?",
+      "answer": "Peacock"
     },
     {
       "number": 2,
-      "question": "Which bird is Pakistan's national bird?",
-      "answer": "Chakor"
+      "question": "Which Australian animal carries its young in a pouch?",
+      "answer": "Kangaroo"
     },
     {
       "number": 3,
-      "question": "Which mountain is the second highest in the world?",
-      "answer": "K2"
+      "question": "Which sea animal has eight arms?",
+      "answer": "Octopus"
     },
     {
       "number": 4,
-      "question": "Which statue was gifted to the United States by France?",
-      "answer": "Lady Liberty"
+      "question": "Which animal is the largest living land mammal?",
+      "answer": "Elephant"
     },
     {
       "number": 5,
-      "question": "Which ancient wonder is in Giza, Egypt?",
-      "answer": "Great Pyramids"
+      "question": "Which big cat is known for its mane?",
+      "answer": "Lion"
     }
   ]
 }
