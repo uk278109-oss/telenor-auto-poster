@@ -1,30 +1,30 @@
 {
-  "date": "October 28, 2026",
+  "date": "October 29, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which bird has a colourful tail?",
-      "answer": "Peacock"
+      "question": "Which of the following is a berry?",
+      "answer": "Banana"
     },
     {
       "number": 2,
-      "question": "Which Australian animal carries its young in a pouch?",
-      "answer": "Kangaroo"
+      "question": "Which sport uses a shuttlecock?",
+      "answer": "Badminton"
     },
     {
       "number": 3,
-      "question": "Which sea animal has eight arms?",
-      "answer": "Octopus"
+      "question": "Which vehicle has two wheels and pedals?",
+      "answer": "Bicycle"
     },
     {
       "number": 4,
-      "question": "Which animal is the largest living land mammal?",
-      "answer": "Elephant"
+      "question": "Which board game features kings, queens and rooks?",
+      "answer": "Chess"
     },
     {
       "number": 5,
-      "question": "Which big cat is known for its mane?",
-      "answer": "Lion"
+      "question": "Which of the following vehicles can fly?",
+      "answer": "Aeroplane"
     }
   ]
 }
