@@ -1,30 +1,30 @@
 {
-  "date": "November 1, 2026",
+  "date": "November 2, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra"
+      "question": "The Sahara Desert is primarily located on which continent?",
+      "answer": "Africa"
     },
     {
       "number": 2,
-      "question": "What is the capital of Canada?",
-      "answer": "Ottawa"
+      "question": "Which Pakistani city is known as the gateway to the Khyber Pass?",
+      "answer": "Peshawar"
     },
     {
       "number": 3,
-      "question": "What is the capital of Egypt?",
-      "answer": "Cairo"
+      "question": "Which is the world's largest ocean?",
+      "answer": "Pacific Ocean"
     },
     {
       "number": 4,
-      "question": "Tokyo is the capital of which country?",
-      "answer": "Japan"
+      "question": "Which two continents do the Ural Mountains separate?",
+      "answer": "Europe and Asia"
     },
     {
       "number": 5,
-      "question": "What is the capital of New Zealand?",
-      "answer": "Wellington"
+      "question": "Which continent surrounds the South Pole?",
+      "answer": "Antarctica"
     }
   ]
 }
