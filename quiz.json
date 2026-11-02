@@ -1,30 +1,30 @@
 {
-  "date": "November 2, 2026",
+  "date": "November 3, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "The Sahara Desert is primarily located on which continent?",
-      "answer": "Africa"
+      "question": "Victoria Falls lies on the border of which two countries?",
+      "answer": "Zambia and Zimbabwe"
     },
     {
       "number": 2,
-      "question": "Which Pakistani city is known as the gateway to the Khyber Pass?",
-      "answer": "Peshawar"
+      "question": "Mount Everest is part of which mountain range?",
+      "answer": "Himalayas"
     },
     {
       "number": 3,
-      "question": "Which is the world's largest ocean?",
-      "answer": "Pacific Ocean"
+      "question": "Which is Pakistan's largest province by area?",
+      "answer": "Balochistan"
     },
     {
       "number": 4,
-      "question": "Which two continents do the Ural Mountains separate?",
-      "answer": "Europe and Asia"
+      "question": "The Great Barrier Reef is off the coast of which country?",
+      "answer": "Australia"
     },
     {
       "number": 5,
-      "question": "Which continent surrounds the South Pole?",
-      "answer": "Antarctica"
+      "question": "Lake Baikal, the world's deepest freshwater lake, is in which country?",
+      "answer": "Russia"
     }
   ]
 }
