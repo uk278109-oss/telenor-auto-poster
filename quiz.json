@@ -1,30 +1,30 @@
 {
-  "date": "November 4, 2026",
+  "date": "November 5, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Victoria Falls lies on the border of which two countries?",
-      "answer": "Zambia and Zimbabwe"
+      "question": "Which line divides Earth into the Northern and Southern Hemispheres?",
+      "answer": "Equator"
     },
     {
       "number": 2,
-      "question": "Mount Everest is part of which mountain range?",
-      "answer": "Himalayas"
+      "question": "The Prime Meridian passes through which London district?",
+      "answer": "Greenwich"
     },
     {
       "number": 3,
-      "question": "Which is Pakistan's largest province by area?",
-      "answer": "Balochistan"
+      "question": "Which sea lies south of Pakistan?",
+      "answer": "Arabian Sea"
     },
     {
       "number": 4,
-      "question": "The Great Barrier Reef is off the coast of which country?",
-      "answer": "Australia"
+      "question": "On most maps, which direction is at the top?",
+      "answer": "North"
     },
     {
       "number": 5,
-      "question": "Lake Baikal, the world's deepest freshwater lake, is in which country?",
-      "answer": "Russia"
+      "question": "What document do you need for international travel?",
+      "answer": "Passport"
     }
   ]
 }
