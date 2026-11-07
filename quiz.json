@@ -1,30 +1,30 @@
 {
-  "date": "November 7, 2026",
+  "date": "November 8, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which fruit is mashed to make traditional guacamole?",
-      "answer": "Avocado"
+      "question": "Which grain is commonly cooked for biryani?",
+      "answer": "Rice"
     },
     {
       "number": 2,
-      "question": "What do you use with toothpaste to clean your teeth?",
-      "answer": "Toothbrush"
+      "question": "Which tool has two pivoting blades for cutting paper?",
+      "answer": "Scissors"
     },
     {
       "number": 3,
-      "question": "Which yellow spice is known for containing curcumin?",
-      "answer": "Turmeric"
+      "question": "Which drink is brewed from roasted, ground beans?",
+      "answer": "Coffee"
     },
     {
       "number": 4,
-      "question": "Which kitchen appliance keeps perishable food chilled?",
-      "answer": "Refrigerator"
+      "question": "Which device wakes you at a chosen time?",
+      "answer": "Alarm clock"
     },
     {
       "number": 5,
-      "question": "Which pasta shape looks like short tubes with diagonal ends?",
-      "answer": "Penne"
+      "question": "Which Japanese dish is made with vinegared rice?",
+      "answer": "Sushi"
     }
   ]
 }
