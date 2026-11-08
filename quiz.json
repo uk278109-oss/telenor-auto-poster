@@ -1,30 +1,30 @@
 {
-  "date": "November 8, 2026",
+  "date": "November 9, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which grain is commonly cooked for biryani?",
-      "answer": "Rice"
+      "question": "Which tropical fruit has a rough skin and leafy crown?",
+      "answer": "Pineapple"
     },
     {
       "number": 2,
-      "question": "Which tool has two pivoting blades for cutting paper?",
-      "answer": "Scissors"
+      "question": "Which item provides portable cover from rain?",
+      "answer": "Umbrella"
     },
     {
       "number": 3,
-      "question": "Which drink is brewed from roasted, ground beans?",
-      "answer": "Coffee"
+      "question": "Which sweet treat is made using cacao beans?",
+      "answer": "Chocolate"
     },
     {
       "number": 4,
-      "question": "Which device wakes you at a chosen time?",
-      "answer": "Alarm clock"
+      "question": "Which object turns most traditional door locks?",
+      "answer": "Key"
     },
     {
       "number": 5,
-      "question": "Which Japanese dish is made with vinegared rice?",
-      "answer": "Sushi"
+      "question": "Which container keeps eggs separated for transport?",
+      "answer": "Egg carton"
     }
   ]
 }
