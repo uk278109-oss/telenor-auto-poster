@@ -1,30 +1,30 @@
 {
-  "date": "November 9, 2026",
+  "date": "November 10, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which tropical fruit has a rough skin and leafy crown?",
-      "answer": "Pineapple"
+      "question": "Which red fruit is used to make most ketchup?",
+      "answer": "Tomato"
     },
     {
       "number": 2,
-      "question": "Which item provides portable cover from rain?",
-      "answer": "Umbrella"
+      "question": "Which appliance removes wrinkles with a heated soleplate?",
+      "answer": "Iron"
     },
     {
       "number": 3,
-      "question": "Which sweet treat is made using cacao beans?",
-      "answer": "Chocolate"
+      "question": "Which grain is rolled to make oatmeal?",
+      "answer": "Oats"
     },
     {
       "number": 4,
-      "question": "Which object turns most traditional door locks?",
-      "answer": "Key"
+      "question": "Which machine cleans clothes using a rotating drum?",
+      "answer": "Washing machine"
     },
     {
       "number": 5,
-      "question": "Which container keeps eggs separated for transport?",
-      "answer": "Egg carton"
+      "question": "Which vegetable is the main ingredient in French fries?",
+      "answer": "Potato"
     }
   ]
 }
