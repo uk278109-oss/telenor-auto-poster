@@ -1,30 +1,30 @@
 {
-  "date": "November 10, 2026",
+  "date": "November 11, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which red fruit is used to make most ketchup?",
-      "answer": "Tomato"
+      "question": "Which stationery item uses ink to write in a notebook?",
+      "answer": "Pen"
     },
     {
       "number": 2,
-      "question": "Which appliance removes wrinkles with a heated soleplate?",
-      "answer": "Iron"
+      "question": "Which natural sweetener is produced by bees?",
+      "answer": "Honey"
     },
     {
       "number": 3,
-      "question": "Which grain is rolled to make oatmeal?",
-      "answer": "Oats"
+      "question": "Which type of bag is usually worn on both shoulders?",
+      "answer": "Backpack"
     },
     {
       "number": 4,
-      "question": "Which machine cleans clothes using a rotating drum?",
-      "answer": "Washing machine"
+      "question": "Which red fruit has tiny seeds on its outer surface?",
+      "answer": "Strawberry"
     },
     {
       "number": 5,
-      "question": "Which vegetable is the main ingredient in French fries?",
-      "answer": "Potato"
+      "question": "Which device lets you listen to music privately over your ears?",
+      "answer": "Headphones"
     }
   ]
 }
