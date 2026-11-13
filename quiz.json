@@ -1,30 +1,30 @@
 {
-  "date": "November 11, 2026",
+  "date": "November 13, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which stationery item uses ink to write in a notebook?",
-      "answer": "Pen"
+      "question": "Which item produces light when powered by electricity?",
+      "answer": "Light bulb"
     },
     {
       "number": 2,
-      "question": "Which natural sweetener is produced by bees?",
-      "answer": "Honey"
+      "question": "Which stationery tool measures length in centimetres?",
+      "answer": "Ruler"
     },
     {
       "number": 3,
-      "question": "Which type of bag is usually worn on both shoulders?",
-      "answer": "Backpack"
+      "question": "Which container holds soil and the roots of a houseplant?",
+      "answer": "Plant pot"
     },
     {
       "number": 4,
-      "question": "Which red fruit has tiny seeds on its outer surface?",
-      "answer": "Strawberry"
+      "question": "Which reusable item helps carry drinking water on the go?",
+      "answer": "Water bottle"
     },
     {
       "number": 5,
-      "question": "Which device lets you listen to music privately over your ears?",
-      "answer": "Headphones"
+      "question": "Which utensil is usually used to stir soup?",
+      "answer": "Spoon"
     }
   ]
 }
