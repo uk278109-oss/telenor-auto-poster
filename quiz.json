@@ -1,30 +1,30 @@
 {
-  "date": "November 14, 2026",
+  "date": "November 15, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which organs help you see colours and shapes?",
-      "answer": "Eyes"
+      "question": "Which organ controls thinking and memory?",
+      "answer": "Brain"
     },
     {
       "number": 2,
-      "question": "Which body parts collect sound so you can hear?",
-      "answer": "Ears"
+      "question": "Which organ pumps blood around your body?",
+      "answer": "Heart"
     },
     {
       "number": 3,
-      "question": "Which part of your face detects the aroma of fresh chai?",
-      "answer": "Nose"
+      "question": "Which organs take oxygen from the air into your blood?",
+      "answer": "Lungs"
     },
     {
       "number": 4,
-      "question": "Which muscular organ has most taste buds that sense sweet kheer?",
-      "answer": "Tongue"
+      "question": "Which organ churns swallowed food and mixes it with acid?",
+      "answer": "Stomach"
     },
     {
       "number": 5,
-      "question": "What is the largest organ of the human body?",
-      "answer": "Skin"
+      "question": "Which organs filter waste from your blood to make urine?",
+      "answer": "Kidneys"
     }
   ]
 }
