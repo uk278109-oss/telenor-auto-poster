@@ -1,30 +1,30 @@
 {
-  "date": "November 13, 2026",
+  "date": "November 14, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which item produces light when powered by electricity?",
-      "answer": "Light bulb"
+      "question": "Which organs help you see colours and shapes?",
+      "answer": "Eyes"
     },
     {
       "number": 2,
-      "question": "Which stationery tool measures length in centimetres?",
-      "answer": "Ruler"
+      "question": "Which body parts collect sound so you can hear?",
+      "answer": "Ears"
     },
     {
       "number": 3,
-      "question": "Which container holds soil and the roots of a houseplant?",
-      "answer": "Plant pot"
+      "question": "Which part of your face detects the aroma of fresh chai?",
+      "answer": "Nose"
     },
     {
       "number": 4,
-      "question": "Which reusable item helps carry drinking water on the go?",
-      "answer": "Water bottle"
+      "question": "Which muscular organ has most taste buds that sense sweet kheer?",
+      "answer": "Tongue"
     },
     {
       "number": 5,
-      "question": "Which utensil is usually used to stir soup?",
-      "answer": "Spoon"
+      "question": "What is the largest organ of the human body?",
+      "answer": "Skin"
     }
   ]
 }
