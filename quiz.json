@@ -1,30 +1,30 @@
 {
-  "date": "November 19, 2026",
+  "date": "November 20, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which joint bends between your thigh and lower leg when you bowl in cricket?",
-      "answer": "Knee"
+      "question": "What grows from follicles in your skin?",
+      "answer": "Hair"
     },
     {
       "number": 2,
-      "question": "Which joint connects your foot to your lower leg?",
-      "answer": "Ankle"
+      "question": "What liquid cools your skin as it evaporates on a hot day in Lahore?",
+      "answer": "Sweat"
     },
     {
       "number": 3,
-      "question": "What is the rounded back part of your foot called?",
-      "answer": "Heel"
+      "question": "Which drink replaces fluid lost through sweating in Karachi's summer heat?",
+      "answer": "Water"
     },
     {
       "number": 4,
-      "question": "What are the digits at the front of your feet called?",
-      "answer": "Toes"
+      "question": "What natural resting state helps your brain and body recharge?",
+      "answer": "Sleep"
     },
     {
       "number": 5,
-      "question": "What is the muscular back part of your lower leg called?",
-      "answer": "Calf"
+      "question": "Which body tissues contract to move your bones?",
+      "answer": "Muscles"
     }
   ]
 }
