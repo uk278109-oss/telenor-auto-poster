@@ -1,30 +1,30 @@
 {
-  "date": "November 21, 2026",
+  "date": "November 22, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which tool removes pencil marks from paper?",
-      "answer": "Eraser"
+      "question": "Which measuring tool usually has centimetre markings?",
+      "answer": "Ruler"
     },
     {
       "number": 2,
-      "question": "Which object holds loose sheets together without staples?",
-      "answer": "Paper clip"
+      "question": "Which stationery item seals a letter for posting?",
+      "answer": "Envelope"
     },
     {
       "number": 3,
-      "question": "Which stationery tool trims a pencil tip?",
-      "answer": "Sharpener"
+      "question": "Which tool leaves an inked impression on paper?",
+      "answer": "Rubber stamp"
     },
     {
       "number": 4,
-      "question": "Which spring-loaded clip grips a thick stack of papers?",
-      "answer": "Bulldog clip"
+      "question": "Which small object holds a note on a pinboard?",
+      "answer": "Pushpin"
     },
     {
       "number": 5,
-      "question": "Which item marks your place in a book?",
-      "answer": "Bookmark"
+      "question": "Which item supports paper when writing without a desk?",
+      "answer": "Clipboard"
     }
   ]
 }
