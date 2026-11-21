@@ -1,30 +1,30 @@
 {
-  "date": "November 20, 2026",
+  "date": "November 21, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "What grows from follicles in your skin?",
-      "answer": "Hair"
+      "question": "Which tool removes pencil marks from paper?",
+      "answer": "Eraser"
     },
     {
       "number": 2,
-      "question": "What liquid cools your skin as it evaporates on a hot day in Lahore?",
-      "answer": "Sweat"
+      "question": "Which object holds loose sheets together without staples?",
+      "answer": "Paper clip"
     },
     {
       "number": 3,
-      "question": "Which drink replaces fluid lost through sweating in Karachi's summer heat?",
-      "answer": "Water"
+      "question": "Which stationery tool trims a pencil tip?",
+      "answer": "Sharpener"
     },
     {
       "number": 4,
-      "question": "What natural resting state helps your brain and body recharge?",
-      "answer": "Sleep"
+      "question": "Which spring-loaded clip grips a thick stack of papers?",
+      "answer": "Bulldog clip"
     },
     {
       "number": 5,
-      "question": "Which body tissues contract to move your bones?",
-      "answer": "Muscles"
+      "question": "Which item marks your place in a book?",
+      "answer": "Bookmark"
     }
   ]
 }
