@@ -1,30 +1,30 @@
 {
-  "date": "November 22, 2026",
+  "date": "November 23, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which measuring tool usually has centimetre markings?",
-      "answer": "Ruler"
+      "question": "Which cleaning tool has bristles for sweeping dust from the floor?",
+      "answer": "Broom"
     },
     {
       "number": 2,
-      "question": "Which stationery item seals a letter for posting?",
-      "answer": "Envelope"
+      "question": "Which device rings to announce a visitor at the door?",
+      "answer": "Doorbell"
     },
     {
       "number": 3,
-      "question": "Which tool leaves an inked impression on paper?",
-      "answer": "Rubber stamp"
+      "question": "Which object opens a matching padlock?",
+      "answer": "Key"
     },
     {
       "number": 4,
-      "question": "Which small object holds a note on a pinboard?",
-      "answer": "Pushpin"
+      "question": "Which object keeps clothes hanging neatly in a wardrobe?",
+      "answer": "Coat hanger"
     },
     {
       "number": 5,
-      "question": "Which item supports paper when writing without a desk?",
-      "answer": "Clipboard"
+      "question": "Which object lets you see your reflection?",
+      "answer": "Mirror"
     }
   ]
 }
