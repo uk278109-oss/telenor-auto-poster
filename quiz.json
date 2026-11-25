@@ -1,30 +1,30 @@
 {
-  "date": "November 25, 2026",
+  "date": "November 26, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which kitchen tool removes the skin from a potato?",
-      "answer": "Peeler"
+      "question": "Which kitchen tool crushes ingredients inside a mortar?",
+      "answer": "Pestle"
     },
     {
       "number": 2,
-      "question": "Which tool mixes air into eggs or cream?",
-      "answer": "Whisk"
+      "question": "Which tool transfers liquid neatly into a narrow-necked bottle?",
+      "answer": "Funnel"
     },
     {
       "number": 3,
-      "question": "Which tool makes thin shreds of cheese?",
-      "answer": "Grater"
+      "question": "Which flat tool slides under food to lift or turn it?",
+      "answer": "Spatula"
     },
     {
       "number": 4,
-      "question": "Which perforated bowl drains water from cooked pasta?",
-      "answer": "Colander"
+      "question": "Which tool grips hot food without using your fingers?",
+      "answer": "Tongs"
     },
     {
       "number": 5,
-      "question": "Which tool rolls dough into a flat sheet?",
-      "answer": "Rolling pin"
+      "question": "Which small mat protects a table from a drink's condensation?",
+      "answer": "Coaster"
     }
   ]
 }
