@@ -1,30 +1,30 @@
 {
-  "date": "November 26, 2026",
+  "date": "November 27, 2026",
   "quiz": [
     {
       "number": 1,
-      "question": "Which kitchen tool crushes ingredients inside a mortar?",
-      "answer": "Pestle"
+      "question": "Which computer accessory moves the pointer on a screen?",
+      "answer": "Mouse"
     },
     {
       "number": 2,
-      "question": "Which tool transfers liquid neatly into a narrow-necked bottle?",
-      "answer": "Funnel"
+      "question": "Which device turns a digital document into a paper copy?",
+      "answer": "Printer"
     },
     {
       "number": 3,
-      "question": "Which flat tool slides under food to lift or turn it?",
-      "answer": "Spatula"
+      "question": "Which device captures your voice for a call or recording?",
+      "answer": "Microphone"
     },
     {
       "number": 4,
-      "question": "Which tool grips hot food without using your fingers?",
-      "answer": "Tongs"
+      "question": "Which device projects an image onto a wall or screen?",
+      "answer": "Projector"
     },
     {
       "number": 5,
-      "question": "Which small mat protects a table from a drink's condensation?",
-      "answer": "Coaster"
+      "question": "Which computer device has keys for typing letters and numbers?",
+      "answer": "Keyboard"
     }
   ]
 }
